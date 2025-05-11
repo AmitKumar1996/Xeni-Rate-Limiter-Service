@@ -12,7 +12,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @SpringBootTest
-@AutoConfigureMockMvc // ✅ Add this to let Spring initialize MockMvc
+@AutoConfigureMockMvc 
 public class RateLimiterControllerTest {
 
     @Autowired
