@@ -13,7 +13,7 @@ This is a backend service to register clients and enforce request rate limits us
 - ✅ Fixed Window rate limiting strategy
 - ✅ In-memory storage (no database required)
 - ✅ Extensible design for future strategies
-- ✅ JUnit 5 and Mockito-based test coverage
+- ✅ JUnit 4 and Mockito-based test coverage
 
 ---
 
@@ -21,7 +21,7 @@ This is a backend service to register clients and enforce request rate limits us
 
 - Java 17+
 - Spring Boot
-- JUnit 5
+- JUnit 4
 - Mockito
 
 ---
